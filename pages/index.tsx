@@ -124,7 +124,7 @@ const Home = () => {
               onClick={() => setReadmore((flag) => !flag)}
               onTouchStart={() => setReadmore((flag) => !flag)}
               className='text-2xl text-blue-800 cursor-pointer hover:text-blue-900'
-              tabIndex='0'
+              tabIndex={0}
               role='button'
               aria-label={
                 (readmore ? "less details" : "more details") + ", button"
